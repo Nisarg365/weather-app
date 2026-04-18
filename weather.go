@@ -10,7 +10,6 @@ func main() {
 	fmt.Println("--- Smart Weather Bot ---")
 	fmt.Print("What is the temperature in Celsius? ")
 	fmt.Scan(&temp)
-	// 1. Get the user input here using fmt.Scan
 	if temp > 25 {
 		fmt.Println("Wear a T-shirt ☀️")
 	} else if temp < 15 {
@@ -22,9 +21,3 @@ func main() {
 	}
 }
 
-//
-
-// 2. Write the if / else if / else logic below
-// Above 25: Wear a T-shirt ☀️
-// 15 to 25: Bring a jacket 🧥
-// Below 15: Heavy coat ❄️
